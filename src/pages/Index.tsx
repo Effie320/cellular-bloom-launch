@@ -1,22 +1,27 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import SymptomsSection from "@/components/SymptomsSection";
 import BenefitsSection from "@/components/BenefitsSection";
 import AboutSection from "@/components/AboutSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
+import { LanguageProvider } from "@/i18n/LanguageContext";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <Navbar />
-      <HeroSection />
-      <BenefitsSection />
-      <AboutSection />
-      <TestimonialsSection />
-      <CTASection />
-      <Footer />
-    </div>
+    <LanguageProvider>
+      <div className="min-h-screen">
+        <Navbar />
+        <HeroSection />
+        <SymptomsSection />
+        <BenefitsSection />
+        <AboutSection />
+        <TestimonialsSection />
+        <CTASection />
+        <Footer />
+      </div>
+    </LanguageProvider>
   );
 };
 
