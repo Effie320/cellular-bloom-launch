@@ -4,7 +4,7 @@ export const translations = {
   nav: {
     symptoms: { el: "Συμπτώματα", en: "Symptoms", de: "Symptome" },
     benefits: { el: "Οφέλη", en: "Benefits", de: "Vorteile" },
-    approach: { el: "Η Προσέγγισή μας", en: "Our Approach", de: "Unser Ansatz" },
+    approach: { el: "Η Προσέγγισή μου", en: "My Approach", de: "Mein Ansatz" },
     contact: { el: "Επικοινωνία", en: "Contact", de: "Kontakt" },
     cta: { el: "Κλείσε Ραντεβού", en: "Book a Call", de: "Beratung" },
   },
@@ -154,7 +154,7 @@ export const translations = {
     ],
   },
   approach: {
-    tag: { el: "Η Προσέγγισή μας", en: "Our Approach", de: "Unser Ansatz" },
+    tag: { el: "Η Προσέγγισή μου", en: "My Approach", de: "Mein Ansatz" },
     title1: { el: "120 ημέρες", en: "120 days", de: "120 Tage" },
     title2: { el: "προς την ισορροπία", en: "to balance", de: "zur Balance" },
     p1: {
@@ -163,9 +163,9 @@ export const translations = {
       de: "Ich glaube, dass wahre Gesundheit auf zellulärer Ebene beginnt. Deshalb ist mein Ansatz vollständig personalisiert — basierend auf spezialisierten Trockenblutanalysen, die enthüllen, was Standardtests nicht können.",
     },
     p2: {
-      el: "Οι εξετάσεις γίνονται σε ανεξάρτητο εργαστήριο του εξωτερικού με πιστοποιήσεις CE, ISO 9001, IVD και άλλες, εξασφαλίζοντας αξιοπιστία και ακρίβεια στα αποτελέσματα. Οι χρόνιες φλεγμονές χαμηλού βαθμού δεν φαίνονται στις κλασικές αιματολογικές — εμείς τις βρίσκουμε.",
-      en: "Tests are conducted in an independent laboratory abroad certified with CE, ISO 9001, IVD and other standards, ensuring reliability and accuracy. Chronic low-grade inflammation doesn't show up in standard blood work — we find it.",
-      de: "Die Tests werden in einem unabhängigen, zertifizierten Labor im Ausland durchgeführt (CE, ISO 9001, IVD u.a.), was Zuverlässigkeit und Genauigkeit gewährleistet. Chronische niedriggradige Entzündungen zeigen sich nicht in Standardbluttests — wir finden sie.",
+      el: "Οι εξετάσεις γίνονται σε ανεξάρτητο εργαστήριο του εξωτερικού με πιστοποιήσεις CE, ISO 9001, IVD και άλλες, εξασφαλίζοντας αξιοπιστία και ακρίβεια στα αποτελέσματα. Οι χρόνιες φλεγμονές χαμηλού βαθμού δεν φαίνονται στις κλασικές αιματολογικές — εγώ τις βρίσκω.",
+      en: "Tests are conducted in an independent laboratory abroad certified with CE, ISO 9001, IVD and other standards, ensuring reliability and accuracy. Chronic low-grade inflammation doesn't show up in standard blood work — I find it.",
+      de: "Die Tests werden in einem unabhängigen, zertifizierten Labor im Ausland durchgeführt (CE, ISO 9001, IVD u.a.), was Zuverlässigkeit und Genauigkeit gewährleistet. Chronische niedriggradige Entzündungen zeigen sich nicht in Standardbluttests — ich finde sie.",
     },
     stat1: { el: "120", en: "120", de: "120" },
     stat1Label: { el: "Ημέρες για ισορροπία", en: "Days to balance", de: "Tage zur Balance" },
@@ -175,37 +175,63 @@ export const translations = {
     stat3Label: { el: "Εξατομικευμένη", en: "Personalized", de: "Personalisiert" },
     cellQuote: { el: "«Κάθε κύτταρο μετράει»", en: '"Every cell counts"', de: '"Jede Zelle zählt"' },
   },
-  testimonials: {
-    tag: { el: "Εμπειρίες", en: "Testimonials", de: "Erfahrungen" },
-    title1: { el: "Τι λένε οι", en: "What our clients", de: "Was unsere Kunden" },
-    title2: { el: "πελάτες μας", en: "say", de: "sagen" },
-    items: [
+  process: {
+    tag: { el: "Η Διαδικασία", en: "The Process", de: "Der Prozess" },
+    title1: { el: "Πώς φτάνουμε", en: "How we reach", de: "Wie wir das" },
+    title2: { el: "στην ισορροπία", en: "balance", de: "Gleichgewicht erreichen" },
+    subtitle: {
+      el: "Τέσσερα απλά βήματα που σε οδηγούν σε μια ζωή χωρίς χρόνιες φλεγμονές — με επιστημονική ακρίβεια και προσωπική καθοδήγηση.",
+      en: "Four simple steps that lead you to a life free from chronic inflammation — with scientific precision and personal guidance.",
+      de: "Vier einfache Schritte, die dich zu einem Leben ohne chronische Entzündungen führen — mit wissenschaftlicher Präzision und persönlicher Begleitung.",
+    },
+    steps: [
       {
-        quote: {
-          el: "Από τότε που ξεκίνησα, νιώθω σαν να γεννήθηκα ξανά. Η ενέργειά μου άλλαξε εντελώς.",
-          en: "Since I started, I feel like I was born again. My energy levels changed completely.",
-          de: "Seit ich begonnen habe, fühle ich mich wie neu geboren. Mein Energielevel hat sich komplett verändert.",
+        title: {
+          el: "Ελέγχω το τώρα",
+          en: "Assess the present",
+          de: "Den Ist-Zustand prüfen",
         },
-        name: "Maria S.",
-        role: { el: "Επιχειρηματίας", en: "Entrepreneur", de: "Unternehmerin" },
+        description: {
+          el: "Ξεκινάω με μια εξειδικευμένη εξέταση ξηρού αίματος σε πιστοποιημένο εργαστήριο του εξωτερικού, για να δω ακριβώς πού βρίσκεται ο οργανισμός σου σήμερα. Αυτό που οι κλασικές εξετάσεις δεν δείχνουν, εγώ το βρίσκω.",
+          en: "I start with a specialized dry blood analysis at a certified laboratory abroad, to see exactly where your body stands today. What standard tests don't reveal, I find.",
+          de: "Ich beginne mit einer spezialisierten Trockenblutanalyse in einem zertifizierten Labor im Ausland, um genau zu sehen, wo dein Körper heute steht. Was Standardtests nicht zeigen, finde ich.",
+        },
       },
       {
-        quote: {
-          el: "Επιτέλους μια προσέγγιση επιστημονικά τεκμηριωμένη που πραγματικά λειτουργεί. Οι εξετάσεις μου βελτιώθηκαν αισθητά.",
-          en: "Finally a scientifically proven approach that actually works. My test results improved significantly.",
-          de: "Endlich ein wissenschaftlich fundierter Ansatz, der wirklich funktioniert. Meine Blutwerte haben sich deutlich verbessert.",
+        title: {
+          el: "Βρίσκω τι χρειάζεται",
+          en: "Identify the needs",
+          de: "Den Bedarf ermitteln",
         },
-        name: "Thomas K.",
-        role: { el: "Γιατρός", en: "Doctor", de: "Arzt" },
+        description: {
+          el: "Αναλύω τα αποτελέσματα και εντοπίζω τις ελλείψεις, τις φλεγμονές και τις ανισορροπίες του οργανισμού σου. Κάθε άνθρωπος είναι μοναδικός — γι' αυτό και η ανάλυση είναι πάντα προσωπική.",
+          en: "I analyze the results and identify deficiencies, inflammation, and imbalances in your body. Every person is unique — that's why the analysis is always personal.",
+          de: "Ich analysiere die Ergebnisse und identifiziere Defizite, Entzündungen und Ungleichgewichte in deinem Körper. Jeder Mensch ist einzigartig — deshalb ist die Analyse immer persönlich.",
+        },
       },
       {
-        quote: {
-          el: "Η εξατομικευμένη προσέγγιση ήταν εξαιρετική. Καταλαβαίνεις ότι πίσω υπάρχει πραγματική γνώση και πάθος.",
-          en: "The personalized approach was outstanding. You can tell there's real expertise and passion behind it.",
-          de: "Die personalisierte Beratung war herausragend. Man merkt, dass hier echte Expertise und Leidenschaft zusammenkommen.",
+        title: {
+          el: "Εξατομικευμένη προσέγγιση",
+          en: "Personalized approach",
+          de: "Personalisierter Ansatz",
         },
-        name: "Anna L.",
-        role: { el: "Fitness Coach", en: "Fitness Coach", de: "Fitness-Trainerin" },
+        description: {
+          el: "Σχεδιάζω ένα πρόγραμμα αποκλειστικά για εσένα, βασισμένο στα δικά σου αποτελέσματα. Στοχευμένη κυτταρική θρέψη και καθοδήγηση που ταιριάζει στον δικό σου οργανισμό.",
+          en: "I design a program exclusively for you, based on your own results. Targeted cellular nutrition and guidance tailored to your unique body.",
+          de: "Ich erstelle ein Programm exklusiv für dich, basierend auf deinen eigenen Ergebnissen. Gezielte zelluläre Ernährung und Begleitung, die zu deinem Körper passt.",
+        },
+      },
+      {
+        title: {
+          el: "Επανέλεγχος σε 120 ημέρες",
+          en: "Recheck at 120 days",
+          de: "Kontrolle nach 120 Tagen",
+        },
+        description: {
+          el: "Μετά από 120 ημέρες κάνω νέα εξέταση ξηρού αίματος για να δούμε μαζί την πρόοδό σου. Τα αποτελέσματα μιλούν από μόνα τους — ο οργανισμός σου επιστρέφει σε ισορροπία.",
+          en: "After 120 days, I conduct a new dry blood test so we can see your progress together. The results speak for themselves — your body returns to balance.",
+          de: "Nach 120 Tagen führe ich eine neue Trockenblutanalyse durch, damit wir gemeinsam deinen Fortschritt sehen. Die Ergebnisse sprechen für sich — dein Körper kehrt ins Gleichgewicht zurück.",
+        },
       },
     ],
   },
@@ -243,6 +269,12 @@ export const translations = {
     },
   },
   footer: {
+    name: "Effie Makri",
+    role: {
+      el: "Σύμβουλος κυτταρικής υγείας και ευεξίας",
+      en: "Cellular Health & Wellness Consultant",
+      de: "Beraterin für zelluläre Gesundheit und Wohlbefinden",
+    },
     tagline: { el: "Η υγεία ξεκινά από το κύτταρο", en: "Health begins in the cell", de: "Gesundheit beginnt in der Zelle" },
     imprint: { el: "Νομικά", en: "Imprint", de: "Impressum" },
     privacy: { el: "Απόρρητο", en: "Privacy", de: "Datenschutz" },
