@@ -4,7 +4,7 @@ export const translations = {
   nav: {
     symptoms: { el: "Συμπτώματα", en: "Symptoms", de: "Symptome" },
     benefits: { el: "Οφέλη", en: "Benefits", de: "Vorteile" },
-    approach: { el: "Η Προσέγγισή μου", en: "My Approach", de: "Mein Ansatz" },
+    approach: { el: "Η Προσέγγισή μας", en: "Our Approach", de: "Unser Ansatz" },
     contact: { el: "Επικοινωνία", en: "Contact", de: "Kontakt" },
     cta: { el: "Κλείσε Ραντεβού", en: "Book a Call", de: "Beratung" },
   },
@@ -154,18 +154,18 @@ export const translations = {
     ],
   },
   approach: {
-    tag: { el: "Η Προσέγγισή μου", en: "My Approach", de: "Mein Ansatz" },
+    tag: { el: "Η Προσέγγισή μας", en: "Our Approach", de: "Unser Ansatz" },
     title1: { el: "120 ημέρες", en: "120 days", de: "120 Tage" },
     title2: { el: "προς την ισορροπία", en: "to balance", de: "zur Balance" },
     p1: {
-      el: "Πιστεύω ότι η αληθινή υγεία ξεκινά σε κυτταρικό επίπεδο. Γι' αυτό η προσέγγισή μου είναι εντελώς εξατομικευμένη — βασισμένη σε εξειδικευμένες αιματολογικές εξετάσεις ξηρού αίματος που αποκαλύπτουν αυτό που οι κλασικές εξετάσεις δεν μπορούν.",
-      en: "I believe true health starts at the cellular level. That's why my approach is completely personalized — based on specialized dry blood analysis that reveals what standard tests cannot.",
-      de: "Ich glaube, dass wahre Gesundheit auf zellulärer Ebene beginnt. Deshalb ist mein Ansatz vollständig personalisiert — basierend auf spezialisierten Trockenblutanalysen, die enthüllen, was Standardtests nicht können.",
+      el: "Πιστεύουμε ότι η αληθινή υγεία ξεκινά σε κυτταρικό επίπεδο. Γι' αυτό η προσέγγισή μας είναι εντελώς εξατομικευμένη — βασισμένη σε εξειδικευμένες αιματολογικές εξετάσεις ξηρού αίματος που αποκαλύπτουν αυτό που οι κλασικές εξετάσεις δεν μπορούν.",
+      en: "We believe true health starts at the cellular level. That's why our approach is completely personalized — based on specialized dry blood analysis that reveals what standard tests cannot.",
+      de: "Wir glauben, dass wahre Gesundheit auf zellulärer Ebene beginnt. Deshalb ist unser Ansatz vollständig personalisiert — basierend auf spezialisierten Trockenblutanalysen, die enthüllen, was Standardtests nicht können.",
     },
     p2: {
-      el: "Οι εξετάσεις γίνονται σε ανεξάρτητο εργαστήριο του εξωτερικού με πιστοποιήσεις CE, ISO 9001, IVD και άλλες, εξασφαλίζοντας αξιοπιστία και ακρίβεια στα αποτελέσματα. Οι χρόνιες φλεγμονές χαμηλού βαθμού δεν φαίνονται στις κλασικές αιματολογικές — εγώ τις βρίσκω.",
-      en: "Tests are conducted in an independent laboratory abroad certified with CE, ISO 9001, IVD and other standards, ensuring reliability and accuracy. Chronic low-grade inflammation doesn't show up in standard blood work — I find it.",
-      de: "Die Tests werden in einem unabhängigen, zertifizierten Labor im Ausland durchgeführt (CE, ISO 9001, IVD u.a.), was Zuverlässigkeit und Genauigkeit gewährleistet. Chronische niedriggradige Entzündungen zeigen sich nicht in Standardbluttests — ich finde sie.",
+      el: "Οι εξετάσεις γίνονται σε ανεξάρτητο εργαστήριο του εξωτερικού με πιστοποιήσεις CE, ISO 9001, IVD και άλλες, εξασφαλίζοντας αξιοπιστία και ακρίβεια στα αποτελέσματα. Οι χρόνιες φλεγμονές χαμηλού βαθμού δεν φαίνονται στις κλασικές αιματολογικές — εμείς τις βρίσκουμε.",
+      en: "Tests are conducted in an independent laboratory abroad certified with CE, ISO 9001, IVD and other standards, ensuring reliability and accuracy. Chronic low-grade inflammation doesn't show up in standard blood work — we find it.",
+      de: "Die Tests werden in einem unabhängigen, zertifizierten Labor im Ausland durchgeführt (CE, ISO 9001, IVD u.a.), was Zuverlässigkeit und Genauigkeit gewährleistet. Chronische niedriggradige Entzündungen zeigen sich nicht in Standardbluttests — wir finden sie.",
     },
     stat1: { el: "120", en: "120", de: "120" },
     stat1Label: { el: "Ημέρες για ισορροπία", en: "Days to balance", de: "Tage zur Balance" },
@@ -187,26 +187,26 @@ export const translations = {
     steps: [
       {
         title: {
-          el: "Ελέγχω το τώρα",
+          el: "Ελέγχουμε το τώρα",
           en: "Assess the present",
           de: "Den Ist-Zustand prüfen",
         },
         description: {
-          el: "Ξεκινάω με μια εξειδικευμένη εξέταση ξηρού αίματος σε πιστοποιημένο εργαστήριο του εξωτερικού, για να δω ακριβώς πού βρίσκεται ο οργανισμός σου σήμερα. Αυτό που οι κλασικές εξετάσεις δεν δείχνουν, εγώ το βρίσκω.",
-          en: "I start with a specialized dry blood analysis at a certified laboratory abroad, to see exactly where your body stands today. What standard tests don't reveal, I find.",
-          de: "Ich beginne mit einer spezialisierten Trockenblutanalyse in einem zertifizierten Labor im Ausland, um genau zu sehen, wo dein Körper heute steht. Was Standardtests nicht zeigen, finde ich.",
+          el: "Ξεκινάμε με μια εξειδικευμένη εξέταση ξηρού αίματος σε πιστοποιημένο εργαστήριο του εξωτερικού, για να δούμε ακριβώς πού βρίσκεται ο οργανισμός σου σήμερα. Αυτό που οι κλασικές εξετάσεις δεν δείχνουν, εμείς το βρίσκουμε.",
+          en: "We start with a specialized dry blood analysis at a certified laboratory abroad, to see exactly where your body stands today. What standard tests don't reveal, we find.",
+          de: "Wir beginnen mit einer spezialisierten Trockenblutanalyse in einem zertifizierten Labor im Ausland, um genau zu sehen, wo dein Körper heute steht. Was Standardtests nicht zeigen, finden wir.",
         },
       },
       {
         title: {
-          el: "Βρίσκω τι χρειάζεται",
+          el: "Βρίσκουμε τι χρειάζεται",
           en: "Identify the needs",
           de: "Den Bedarf ermitteln",
         },
         description: {
-          el: "Αναλύω τα αποτελέσματα και εντοπίζω τις ελλείψεις, τις φλεγμονές και τις ανισορροπίες του οργανισμού σου. Κάθε άνθρωπος είναι μοναδικός — γι' αυτό και η ανάλυση είναι πάντα προσωπική.",
-          en: "I analyze the results and identify deficiencies, inflammation, and imbalances in your body. Every person is unique — that's why the analysis is always personal.",
-          de: "Ich analysiere die Ergebnisse und identifiziere Defizite, Entzündungen und Ungleichgewichte in deinem Körper. Jeder Mensch ist einzigartig — deshalb ist die Analyse immer persönlich.",
+          el: "Αναλύουμε τα αποτελέσματα και εντοπίζουμε τις ελλείψεις, τις φλεγμονές και τις ανισορροπίες του οργανισμού σου. Κάθε άνθρωπος είναι μοναδικός — γι' αυτό και η ανάλυση είναι πάντα προσωπική.",
+          en: "We analyze the results and identify deficiencies, inflammation, and imbalances in your body. Every person is unique — that's why the analysis is always personal.",
+          de: "Wir analysieren die Ergebnisse und identifizieren Defizite, Entzündungen und Ungleichgewichte in deinem Körper. Jeder Mensch ist einzigartig — deshalb ist die Analyse immer persönlich.",
         },
       },
       {
@@ -216,9 +216,9 @@ export const translations = {
           de: "Personalisierter Ansatz",
         },
         description: {
-          el: "Σχεδιάζω ένα πρόγραμμα αποκλειστικά για εσένα, βασισμένο στα δικά σου αποτελέσματα. Στοχευμένη κυτταρική θρέψη και καθοδήγηση που ταιριάζει στον δικό σου οργανισμό.",
-          en: "I design a program exclusively for you, based on your own results. Targeted cellular nutrition and guidance tailored to your unique body.",
-          de: "Ich erstelle ein Programm exklusiv für dich, basierend auf deinen eigenen Ergebnissen. Gezielte zelluläre Ernährung und Begleitung, die zu deinem Körper passt.",
+          el: "Σχεδιάζουμε ένα πρόγραμμα αποκλειστικά για εσένα, βασισμένο στα δικά σου αποτελέσματα. Στοχευμένη κυτταρική θρέψη και καθοδήγηση που ταιριάζει στον δικό σου οργανισμό.",
+          en: "We design a program exclusively for you, based on your own results. Targeted cellular nutrition and guidance tailored to your unique body.",
+          de: "Wir erstellen ein Programm exklusiv für dich, basierend auf deinen eigenen Ergebnissen. Gezielte zelluläre Ernährung und Begleitung, die zu deinem Körper passt.",
         },
       },
       {
@@ -228,9 +228,9 @@ export const translations = {
           de: "Kontrolle nach 120 Tagen",
         },
         description: {
-          el: "Μετά από 120 ημέρες κάνω νέα εξέταση ξηρού αίματος για να δούμε μαζί την πρόοδό σου. Τα αποτελέσματα μιλούν από μόνα τους — ο οργανισμός σου επιστρέφει σε ισορροπία.",
-          en: "After 120 days, I conduct a new dry blood test so we can see your progress together. The results speak for themselves — your body returns to balance.",
-          de: "Nach 120 Tagen führe ich eine neue Trockenblutanalyse durch, damit wir gemeinsam deinen Fortschritt sehen. Die Ergebnisse sprechen für sich — dein Körper kehrt ins Gleichgewicht zurück.",
+          el: "Μετά από 120 ημέρες κάνουμε νέα εξέταση ξηρού αίματος για να δούμε μαζί την πρόοδό σου. Τα αποτελέσματα μιλούν από μόνα τους — ο οργανισμός σου επιστρέφει σε ισορροπία.",
+          en: "After 120 days, we conduct a new dry blood test so we can see your progress together. The results speak for themselves — your body returns to balance.",
+          de: "Nach 120 Tagen führen wir eine neue Trockenblutanalyse durch, damit wir gemeinsam deinen Fortschritt sehen. Die Ergebnisse sprechen für sich — dein Körper kehrt ins Gleichgewicht zurück.",
         },
       },
     ],
@@ -240,9 +240,9 @@ export const translations = {
     title1: { el: "Έτοιμος για την", en: "Ready for your", de: "Bereit für deine" },
     title2: { el: "κυτταρική σου μεταμόρφωση;", en: "cellular transformation?", de: "zelluläre Transformation?" },
     subtitle: {
-      el: "Συμπλήρωσε τα στοιχεία σου και θα επικοινωνήσω μαζί σου προσωπικά για μια δωρεάν συνεδρία γνωριμίας.",
-      en: "Fill in your details and I will personally contact you for a free introductory session.",
-      de: "Hinterlasse deine Daten und ich melde mich persönlich bei dir für ein kostenloses Kennenlerngespräch.",
+      el: "Συμπλήρωσε τα στοιχεία σου και θα επικοινωνήσουμε μαζί σου προσωπικά για μια δωρεάν συνεδρία γνωριμίας.",
+      en: "Fill in your details and we will personally contact you for a free introductory session.",
+      de: "Hinterlasse deine Daten und wir melden uns persönlich bei dir für ein kostenloses Kennenlerngespräch.",
     },
     nameLabel: { el: "Ονοματεπώνυμο", en: "Full name", de: "Vollständiger Name" },
     namePlaceholder: { el: "Το όνομά σου", en: "Your name", de: "Dein Name" },
@@ -258,14 +258,14 @@ export const translations = {
     },
     submit: { el: "Θέλω να με καλέσεις", en: "I want you to call me", de: "Ruf mich an" },
     privacy: {
-      el: "Τα στοιχεία σου προστατεύονται και χρησιμοποιούνται αποκλειστικά για να επικοινωνήσω μαζί σου προσωπικά. Δεν κοινοποιούνται σε τρίτους.",
-      en: "Your data is protected and used exclusively for me to contact you personally. It is never shared with third parties.",
+      el: "Τα στοιχεία σου προστατεύονται και χρησιμοποιούνται αποκλειστικά για να επικοινωνήσουμε μαζί σου προσωπικά. Δεν κοινοποιούνται σε τρίτους.",
+      en: "Your data is protected and used exclusively for us to contact you personally. It is never shared with third parties.",
       de: "Deine Daten sind geschützt und werden ausschließlich verwendet, um dich persönlich zu kontaktieren. Sie werden niemals an Dritte weitergegeben.",
     },
     success: {
-      el: "Ευχαριστώ! Θα επικοινωνήσω μαζί σου σύντομα.",
-      en: "Thank you! I will contact you soon.",
-      de: "Danke! Ich melde mich bald bei dir.",
+      el: "Ευχαριστούμε! Θα επικοινωνήσουμε μαζί σου σύντομα.",
+      en: "Thank you! We will contact you soon.",
+      de: "Danke! Wir melden uns bald bei dir.",
     },
   },
   footer: {
