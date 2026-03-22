@@ -10,8 +10,9 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div>
-            <p className="font-display text-2xl font-semibold text-background">Cellular Health</p>
-            <p className="font-body text-sm text-background/50 mt-1">{t.tagline[lang]}</p>
+            <p className="font-display text-2xl font-semibold text-background">{t.name}</p>
+            <p className="font-body text-sm text-accent mt-1">{t.role[lang]}</p>
+            <p className="font-body text-xs text-background/40 mt-0.5">{t.tagline[lang]}</p>
           </div>
           <div className="flex gap-8 font-body text-sm text-background/50">
             <a href="#" className="hover:text-background/80 transition-colors">{t.imprint[lang]}</a>
