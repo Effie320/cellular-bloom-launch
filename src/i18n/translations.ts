@@ -4,7 +4,7 @@ export const translations = {
   nav: {
     symptoms: { el: "Συμπτώματα", en: "Symptoms", de: "Symptome" },
     benefits: { el: "Οφέλη", en: "Benefits", de: "Vorteile" },
-    approach: { el: "Η Προσέγγισή μου", en: "My Approach", de: "Mein Ansatz" },
+    approach: { el: "Η Προσέγγισή μας", en: "Our Approach", de: "Unser Ansatz" },
     contact: { el: "Επικοινωνία", en: "Contact", de: "Kontakt" },
     cta: { el: "Κλείσε Ραντεβού", en: "Book a Call", de: "Beratung" },
   },
