@@ -240,9 +240,9 @@ export const translations = {
     title1: { el: "Έτοιμος για την", en: "Ready for your", de: "Bereit für deine" },
     title2: { el: "κυτταρική σου μεταμόρφωση;", en: "cellular transformation?", de: "zelluläre Transformation?" },
     subtitle: {
-      el: "Συμπλήρωσε τα στοιχεία σου και θα επικοινωνήσω μαζί σου προσωπικά για μια δωρεάν συνεδρία γνωριμίας.",
-      en: "Fill in your details and I will personally contact you for a free introductory session.",
-      de: "Hinterlasse deine Daten und ich melde mich persönlich bei dir für ein kostenloses Kennenlerngespräch.",
+      el: "Συμπλήρωσε τα στοιχεία σου και θα επικοινωνήσουμε μαζί σου προσωπικά για μια δωρεάν συνεδρία γνωριμίας.",
+      en: "Fill in your details and we will personally contact you for a free introductory session.",
+      de: "Hinterlasse deine Daten und wir melden uns persönlich bei dir für ein kostenloses Kennenlerngespräch.",
     },
     nameLabel: { el: "Ονοματεπώνυμο", en: "Full name", de: "Vollständiger Name" },
     namePlaceholder: { el: "Το όνομά σου", en: "Your name", de: "Dein Name" },
