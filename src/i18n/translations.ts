@@ -187,26 +187,26 @@ export const translations = {
     steps: [
       {
         title: {
-          el: "Ελέγχω το τώρα",
+          el: "Ελέγχουμε το τώρα",
           en: "Assess the present",
           de: "Den Ist-Zustand prüfen",
         },
         description: {
-          el: "Ξεκινάω με μια εξειδικευμένη εξέταση ξηρού αίματος σε πιστοποιημένο εργαστήριο του εξωτερικού, για να δω ακριβώς πού βρίσκεται ο οργανισμός σου σήμερα. Αυτό που οι κλασικές εξετάσεις δεν δείχνουν, εγώ το βρίσκω.",
-          en: "I start with a specialized dry blood analysis at a certified laboratory abroad, to see exactly where your body stands today. What standard tests don't reveal, I find.",
-          de: "Ich beginne mit einer spezialisierten Trockenblutanalyse in einem zertifizierten Labor im Ausland, um genau zu sehen, wo dein Körper heute steht. Was Standardtests nicht zeigen, finde ich.",
+          el: "Ξεκινάμε με μια εξειδικευμένη εξέταση ξηρού αίματος σε πιστοποιημένο εργαστήριο του εξωτερικού, για να δούμε ακριβώς πού βρίσκεται ο οργανισμός σου σήμερα. Αυτό που οι κλασικές εξετάσεις δεν δείχνουν, εμείς το βρίσκουμε.",
+          en: "We start with a specialized dry blood analysis at a certified laboratory abroad, to see exactly where your body stands today. What standard tests don't reveal, we find.",
+          de: "Wir beginnen mit einer spezialisierten Trockenblutanalyse in einem zertifizierten Labor im Ausland, um genau zu sehen, wo dein Körper heute steht. Was Standardtests nicht zeigen, finden wir.",
         },
       },
       {
         title: {
-          el: "Βρίσκω τι χρειάζεται",
+          el: "Βρίσκουμε τι χρειάζεται",
           en: "Identify the needs",
           de: "Den Bedarf ermitteln",
         },
         description: {
-          el: "Αναλύω τα αποτελέσματα και εντοπίζω τις ελλείψεις, τις φλεγμονές και τις ανισορροπίες του οργανισμού σου. Κάθε άνθρωπος είναι μοναδικός — γι' αυτό και η ανάλυση είναι πάντα προσωπική.",
-          en: "I analyze the results and identify deficiencies, inflammation, and imbalances in your body. Every person is unique — that's why the analysis is always personal.",
-          de: "Ich analysiere die Ergebnisse und identifiziere Defizite, Entzündungen und Ungleichgewichte in deinem Körper. Jeder Mensch ist einzigartig — deshalb ist die Analyse immer persönlich.",
+          el: "Αναλύουμε τα αποτελέσματα και εντοπίζουμε τις ελλείψεις, τις φλεγμονές και τις ανισορροπίες του οργανισμού σου. Κάθε άνθρωπος είναι μοναδικός — γι' αυτό και η ανάλυση είναι πάντα προσωπική.",
+          en: "We analyze the results and identify deficiencies, inflammation, and imbalances in your body. Every person is unique — that's why the analysis is always personal.",
+          de: "Wir analysieren die Ergebnisse und identifizieren Defizite, Entzündungen und Ungleichgewichte in deinem Körper. Jeder Mensch ist einzigartig — deshalb ist die Analyse immer persönlich.",
         },
       },
       {
@@ -216,9 +216,9 @@ export const translations = {
           de: "Personalisierter Ansatz",
         },
         description: {
-          el: "Σχεδιάζω ένα πρόγραμμα αποκλειστικά για εσένα, βασισμένο στα δικά σου αποτελέσματα. Στοχευμένη κυτταρική θρέψη και καθοδήγηση που ταιριάζει στον δικό σου οργανισμό.",
-          en: "I design a program exclusively for you, based on your own results. Targeted cellular nutrition and guidance tailored to your unique body.",
-          de: "Ich erstelle ein Programm exklusiv für dich, basierend auf deinen eigenen Ergebnissen. Gezielte zelluläre Ernährung und Begleitung, die zu deinem Körper passt.",
+          el: "Σχεδιάζουμε ένα πρόγραμμα αποκλειστικά για εσένα, βασισμένο στα δικά σου αποτελέσματα. Στοχευμένη κυτταρική θρέψη και καθοδήγηση που ταιριάζει στον δικό σου οργανισμό.",
+          en: "We design a program exclusively for you, based on your own results. Targeted cellular nutrition and guidance tailored to your unique body.",
+          de: "Wir erstellen ein Programm exklusiv für dich, basierend auf deinen eigenen Ergebnissen. Gezielte zelluläre Ernährung und Begleitung, die zu deinem Körper passt.",
         },
       },
       {
@@ -228,9 +228,9 @@ export const translations = {
           de: "Kontrolle nach 120 Tagen",
         },
         description: {
-          el: "Μετά από 120 ημέρες κάνω νέα εξέταση ξηρού αίματος για να δούμε μαζί την πρόοδό σου. Τα αποτελέσματα μιλούν από μόνα τους — ο οργανισμός σου επιστρέφει σε ισορροπία.",
-          en: "After 120 days, I conduct a new dry blood test so we can see your progress together. The results speak for themselves — your body returns to balance.",
-          de: "Nach 120 Tagen führe ich eine neue Trockenblutanalyse durch, damit wir gemeinsam deinen Fortschritt sehen. Die Ergebnisse sprechen für sich — dein Körper kehrt ins Gleichgewicht zurück.",
+          el: "Μετά από 120 ημέρες κάνουμε νέα εξέταση ξηρού αίματος για να δούμε μαζί την πρόοδό σου. Τα αποτελέσματα μιλούν από μόνα τους — ο οργανισμός σου επιστρέφει σε ισορροπία.",
+          en: "After 120 days, we conduct a new dry blood test so we can see your progress together. The results speak for themselves — your body returns to balance.",
+          de: "Nach 120 Tagen führen wir eine neue Trockenblutanalyse durch, damit wir gemeinsam deinen Fortschritt sehen. Die Ergebnisse sprechen für sich — dein Körper kehrt ins Gleichgewicht zurück.",
         },
       },
     ],
