@@ -258,14 +258,14 @@ export const translations = {
     },
     submit: { el: "Θέλω να με καλέσεις", en: "I want you to call me", de: "Ruf mich an" },
     privacy: {
-      el: "Τα στοιχεία σου προστατεύονται και χρησιμοποιούνται αποκλειστικά για να επικοινωνήσω μαζί σου προσωπικά. Δεν κοινοποιούνται σε τρίτους.",
-      en: "Your data is protected and used exclusively for me to contact you personally. It is never shared with third parties.",
+      el: "Τα στοιχεία σου προστατεύονται και χρησιμοποιούνται αποκλειστικά για να επικοινωνήσουμε μαζί σου προσωπικά. Δεν κοινοποιούνται σε τρίτους.",
+      en: "Your data is protected and used exclusively for us to contact you personally. It is never shared with third parties.",
       de: "Deine Daten sind geschützt und werden ausschließlich verwendet, um dich persönlich zu kontaktieren. Sie werden niemals an Dritte weitergegeben.",
     },
     success: {
-      el: "Ευχαριστώ! Θα επικοινωνήσω μαζί σου σύντομα.",
-      en: "Thank you! I will contact you soon.",
-      de: "Danke! Ich melde mich bald bei dir.",
+      el: "Ευχαριστούμε! Θα επικοινωνήσουμε μαζί σου σύντομα.",
+      en: "Thank you! We will contact you soon.",
+      de: "Danke! Wir melden uns bald bei dir.",
     },
   },
   footer: {
