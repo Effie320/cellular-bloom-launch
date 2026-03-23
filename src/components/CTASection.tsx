@@ -26,6 +26,7 @@ const CTASection = () => {
         name: form.name,
         email: form.email,
         phone: form.phone,
+        infos: form.message
       },
     ]);
 
