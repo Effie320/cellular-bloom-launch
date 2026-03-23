@@ -4,18 +4,38 @@ import { translations } from "@/i18n/translations";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Lock } from "lucide-react";
+import { createClient } from '@supabase/supabase-js'
 
+const supabase = createClient(
+  import.meta.env.VITE_SUPABASE_URL,
+  import.meta.env.VITE_SUPABASE_ANON_KEY
+)
 const CTASection = () => {
   const { lang } = useLanguage();
   const t = translations.cta;
   const [submitted, setSubmitted] = useState(false);
   const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // For now just show success — backend can be added later
+ const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  const { error } = await supabase
+    .from('instagram_leads')
+    .insert([
+      {
+        name: form.name,
+        email: form.email,
+        phone: form.phone,
+      },
+    ]);
+
+  if (error) {
+    console.log(error);
+    alert("Κάτι πήγε λάθος");
+  } else {
     setSubmitted(true);
-  };
+  }
+};
 
   return (
     <section id="contact" className="py-24 md:py-32 relative overflow-hidden" style={{ background: 'var(--gradient-hero)' }}>
