@@ -20,7 +20,7 @@ const CTASection = () => {
   e.preventDefault();
 
   const { error } = await supabase
-    .from('instagram_leads_')
+    .from('instagram_leads_test')
     .insert([
       {
         name: form.name,
